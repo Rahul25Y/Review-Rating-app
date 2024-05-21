@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.companylist-containerR{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+.company-navbarR{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: azure;
+
+}
+.navstar-imageR{
+height: 40px;
+border-radius: 50px ;
+}
+.navmen-imageR{
+    height: 40px;
+    border-radius: 50px;
+}
+.company-navleftR{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+.company-navleftR{
+    width: 30%;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+.welcome5R{
+    margin-top: 10Px;
+}
+.compannybuttonR{
+    width: 70px;
+}
+.Add-companyR{
+    position: relative;
+    height: 60px;
+
+}
+.add-companybuttonR{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 900px;
+    top: 20px;
+
+}
+.list-h3R{
+    margin-left: 80px;
+}
+.company-list1R{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-size: 20px;
+    background-color: none;
+}
+.company-listR{
+border: 2px solid black;
+height: 340px;
+width:85%;
+margin-left: 100px;
+margin-top: 50px;
+}
+
+.list-imageR{
+    height: 100px;
+}
+.review-imageR{
+    height: 50px;
+    border-radius: 40px;
+}
+.company-list2R{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.review-company2R{
+    margin-left: 14px;
+}
+.addreview-btnR{
+    color: black;
+    background-color: orange;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 500px;
+    padding: 10px;
+   
+}
+.RRR-star{
+  color: rgb(255, 107, 8);
+  margin-left: 140px;
+  font-size: 23px;
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+.RRR-h{
+    width: 85%;
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,217 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Login11{
+    width: 100%;
+    height: 99vh;
+    border: 2px solid black;
+     background: linear-gradient(700deg, rgb(233, 147, 233), rgb(224, 110, 224)); 
+    background: linear-gradient(180deg, rgb(181, 138, 250), rgb(116, 32, 240));
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+.Login22{
+    width: 84%;
+    height: 73vh;
+    border: 3px solid red; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    text-align: center;
+    color: aliceblue;
+}
+.left-box1{
+    width: 46.5%;
+    height: 72vh;
+     border: 1px solid black; 
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    
+}
+#w-l1{
+    margin-top: 10px;
+}
+#p-p1{
+    font-size: 20px;
+}
+.img-1{
+    width: 98%;
+    height: 300px;
+     margin-top: 14px;
+}
+.Right-box{
+    width: 43%;
+    height: 72vh;
+    border: 1px solid black;
+    color: black;
+    
+}
+.right-box-A1{
+    background-image: url('../../assets/Group\ 11665.png');
+    width: 96%;
+    height: 525px;
+    border-radius: 1px 28px 15px 29px;
+    display: flex;
+    flex-direction: column; 
+     justify-content: center;
+}
+.img-2{
+    width: 10%;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 376px;
+    margin-top: 52px;
+}
+.Sign-t{
+    position: relative;
+    bottom: 46px;
+    color: blue;
+ }
+ 
+ .text-box-5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 54px;
+    width: 80%;
+    gap: 15px;
+    padding: 1px;
+    border: 2px solid blue;
+    margin-bottom: 15px;
+ }
+ .text-box-5 input{
+    height: 33px;
+ }
+ .btn-box{
+   border: none;
+   border-radius: 5px;
+   padding: 3px 20px;
+   background: linear-gradient(700deg,rgb(34, 23, 139), rgb(219, 18, 219));
+   font-size: 23px;
+   color: aliceblue;
+  
+ }
+ #h-r1{
+    width: 78%;
+    margin-left: 60px;
+    margin-top: 22px;
+    margin-bottom: 10px; 
+}
+span ,a{
+    color: black;
+    font-size: 17px;
+    padding: 2px;
+} */
+
+.signup-container{
+    /* background: linear-gradient(180deg, rgb(201, 127, 247), rgb(116, 32, 240)); */
+    background: linear-gradient(180deg, rgb(181, 138, 250), rgb(116, 32, 240));
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 660px; */
+    height: 100vh;
+    padding: 130px 50px;
+}
+.left-signup-wel{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-size: 21px;
+}
+.img-3{
+    height: 400px;
+}
+/* .left-signup-logo{
+    margin-bottom: 40px;
+    background-image: url(../../assets/img.png);
+    height: 430px;
+    width: 570px;
+    background-repeat: no-repeat;
+   
+    border: 2px solid black;
+} */
+.right-signup{
+    /* width: 390px; */
+    /* background-image: url(../../assets/Images/login1page.png); */
+    background-image: url('../../assets/Group\ 11665.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 25px;
+    margin-top: 30px;
+    /* height: 500px; */
+    /* background-color: white; */
+    /* border: 2px solid black; */
+    width: 35%;
+    height: 560px;
+}
+.signup-h2{ 
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(to right, 
+    rgb(162, 24, 212),rgb(86, 12, 198)); 
+    -webkit-text-fill-color: transparent; 
+     -webkit-background-clip: text; 
+    padding-left: 25px;
+    margin-top: 6px;
+}
+.signup-img{
+     margin-left: 25px;
+     width: 80px;
+     border-radius: 50%;
+     width: 50px;
+     margin-top: 7px;
+}
+.signup-star{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+}
+.signup-form{
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+.signup-input{
+    width: 300px;
+    height: 28px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    margin-bottom:-5px;
+}   
+.signup-btn{
+    padding: 7px 6px;
+    width: 100px;
+    font-size: 19px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background: linear-gradient(100deg, rgb(202, 75, 248),rgb(68, 5, 162));
+    font-weight: 600;
+}
+.signup-p1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.tost-error-msg{
+    color: rgb(248, 77, 9);
+}
+.h-r-r{
+    width: 85%;
+    margin: auto;
+}
+.file-pic{
+    margin-top: 8px;
+    margin-left: -40px;
+}

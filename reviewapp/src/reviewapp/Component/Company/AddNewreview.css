@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.add-rev-container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.add-reviewR{
+    background-image: url(../../assets/Group\ 11665.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    padding: 20px 18px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    /* box-shadow:  0px 0px 1px 0px; */
+    margin-top: 80px;
+}
+.add-rev-h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.add-rev-input1{
+    padding: 6px 6px;
+    width: 350px;
+    min-height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.add-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.review-btn{
+    width: 100px;
+    height: 38px;
+    padding: 5px 5px;
+    background: linear-gradient(100deg, rgb(204, 64, 246),rgb(131, 85, 201));
+    color: white;
+    border: none;
+    margin-left: 140px;
+    margin-top: 30px;
+    border-radius: 5px;
+}

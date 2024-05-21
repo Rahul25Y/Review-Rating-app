@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    padding: 80px 20px; 
+    background: linear-gradient(180deg, rgb(181, 138, 250), rgb(116, 32, 240));
+    gap: 50px;
+}
+
+.left-login-wel{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-size: 21px;
+}
+
+.img-5{
+    height: 400px;
+    margin-top: 30px;
+}
+.right-login{
+    width: 420px;
+    background-image: url(../../assets/Group\ 11665.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+  
+
+}
+
+.login-h2{
+    text-align: center;
+    font-size: 39px;
+    margin-bottom: 25px;
+    background: linear-gradient(to right, 
+    rgb(162, 24, 212),rgb(86, 12, 198)); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+    padding-left: 30px;
+    margin-top: 15px;
+}
+.login-star{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 110px;
+    padding-bottom: 10px;
+}
+.login-img{
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 60px;
+    margin-top: 10px;
+}
+.login-p{
+    text-align: center;
+}
+.login-form{
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.login-input{
+    width: 300px;
+    height: 28px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+}
+.login-p1 {
+    margin-left: 190px;
+}
+.hr-login{
+    width: 90%;
+    margin-left: 30px;
+}
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.login-btn{
+    padding: 7px 6px;
+    width: 120px;
+    font-size: 22px;
+    background: linear-gradient(100deg, rgb(202, 75, 248),rgb(74, 20, 155));
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-weight: 600;
+
+}
+.login-btn1{
+    color: aliceblue;
+    text-decoration: none;
+}
+.login-p2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* .login-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    padding: 80px 20px; 
+    background: linear-gradient(180deg, rgb(181, 138, 250), rgb(116, 32, 240));
+} */
+
+
+@media screen and (min-width: 768px) {
+    .login-container {
+        
+        flex-direction: row; /* Change to row layout for larger screens */
+        height: 100vh; /* Set height to full viewport height */
+        padding: 120px 80px; /* Restore padding for larger screens */
+    }
+    /* Additional styles for larger screens if needed */
+}
