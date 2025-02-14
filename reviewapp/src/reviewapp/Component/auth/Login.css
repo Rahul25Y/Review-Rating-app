@@ -110,15 +110,7 @@ a:hover{
     margin-bottom: 8px;
 }
 
-/* .login-container {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    height: auto; 
-    padding: 80px 20px; 
-    background: linear-gradient(180deg, rgb(181, 138, 250), rgb(116, 32, 240));
-} */
+
 
 
 @media screen and (min-width: 768px) {

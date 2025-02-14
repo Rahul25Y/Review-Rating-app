@@ -127,27 +127,15 @@ span ,a{
 .img-3{
     height: 400px;
 }
-/* .left-signup-logo{
-    margin-bottom: 40px;
-    background-image: url(../../assets/img.png);
-    height: 430px;
-    width: 570px;
-    background-repeat: no-repeat;
-   
-    border: 2px solid black;
-} */
+
 .right-signup{
-    /* width: 390px; */
-    /* background-image: url(../../assets/Images/login1page.png); */
+  
     background-image: url('../../assets/Group\ 11665.png');
     background-repeat: no-repeat;
     text-align: center;
     padding: 30px 10px;
     border-radius: 25px;
     margin-top: 30px;
-    /* height: 500px; */
-    /* background-color: white; */
-    /* border: 2px solid black; */
     width: 35%;
     height: 560px;
 }
